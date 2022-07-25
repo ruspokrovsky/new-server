@@ -4,7 +4,7 @@ const authRouter = require("./routes/auth");
 const projectRouter = require("./routes/project");
 const expenseRouter = require("./routes/expanse");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 const app = express();
 const DB =  "mongodb+srv://Rustam:nefaz1975@cluster0.jesbf.mongodb.net/?retryWrites=true&w=majority";
 
